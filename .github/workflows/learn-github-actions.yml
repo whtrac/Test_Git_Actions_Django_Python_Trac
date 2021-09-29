@@ -12,7 +12,7 @@ jobs:
       # - run: npm install -g bats
       # - run: bats -v
   linting-code:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Python Linter
-      uses: sunnysid3up/python-linter@v0.1-beta.7
+    runs-on: ubuntu-latest
+    steps:
+      - name: Python Linter
+        uses: sunnysid3up/python-linter@v0.1-beta.7
